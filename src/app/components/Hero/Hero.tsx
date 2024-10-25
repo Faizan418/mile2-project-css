@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import styles from '../Hero/Hero.module.css'
+import styles from "../Hero/Hero.module.css"
 
 function Hero() {
   return (
