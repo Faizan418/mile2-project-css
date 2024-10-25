@@ -38,7 +38,7 @@
   .section {
     background-color: black;
     color: white;
-    height: 100%;
+    height: 90%;
   }
   .section_information {
     justify-content: space-evenly;
@@ -52,9 +52,12 @@
     width: 370px;
     height: 470px;
     margin-top: 50px;
+    margin-bottom: 70px;
   }
   .section_infor {
     margin-top: 200px;
+    /* padding: 20px; */
+    margin-bottom: 70px;
     align-items: center;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -68,7 +71,7 @@
     font-size: 18px;
     padding: 7px;
   }
-  .download_btn {
+  .download_btn{
     margin-top: 20px;
     font-weight: 800;
     display: inline-block;
@@ -80,6 +83,7 @@
     font-size: 16px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    /* border: 1px solid white; */
   }
   
   .download_btn:hover {
@@ -113,6 +117,7 @@
   
   .progress_container {
     max-width: 100%;
+    text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     background-color: #e0e0e0;
@@ -132,8 +137,8 @@
   .progress_bar_html_bar {
     background-color: #e34c26;
   }
-  .progress_bar_css-bar{
-    background-color: #264de4;
+  .progress_bar_css_bar{
+    background-color: #3e5cd4;
   }
   .progress_bar_js_bar {
     background-color: #f0db4f;
@@ -154,7 +159,7 @@
   .progress_bar_js_bar {
     width: 70%;
   }
-  .progress-bar-ts-bar {
+  .progress_bar_ts_bar {
     width: 70%;
   }
   .progress_bar_python_bar {

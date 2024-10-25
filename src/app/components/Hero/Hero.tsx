@@ -53,17 +53,14 @@ function Hero() {
               Email: <span className={styles.name}> muhammadf4060@gmail.com</span>
             </p>
             <p className={styles.infor_pera}>
-              Address:
-              <span className={styles.name}>
-                C/o R-505 Rafi Bunglow&#39;s Malir-15 Karachi
+              Address: <span className={styles.name}> C/o R-505 Rafi Bunglow&#39;s Malir-15 Karachi
               </span>
             </p>
 
             <Link
               href="/images/faizan's_cv.pdf"
               download="Faizan's_CV.pdf"
-              className="download-btn"
-            >
+              className={styles.download_btn}>
               Download CV
             </Link>
           </div>
