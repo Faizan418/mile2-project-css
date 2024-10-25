@@ -6,7 +6,7 @@ import styles from '../Hero/Hero.module.css'
 function Hero() {
   return (
     <div>
-      <header>
+      <div className={styles.header}>
         <div className={styles.information}>
           <div className={styles.intro}>
             <h1>Hello!</h1>
@@ -25,8 +25,8 @@ function Hero() {
             />
           </div>
         </div>
-      </header>
-      <section>
+      </div>
+      <div className={styles.section}>
         <div className={styles.section_information}>
           <div className={styles.section_picture}>
             <Image
@@ -70,7 +70,7 @@ function Hero() {
           </div>
         </div>
 
-        <section className={styles.section_skills} id="skills"></section>
+        <div className={styles.section_skills} id="skills">
 
         <h2 className={styles.he_2}>Skill Percentages</h2>
 
@@ -107,8 +107,10 @@ function Hero() {
           <div className={styles.progress_container}>
             <div className={styles.progress_bar_python_bar}>30%</div>
           </div>
+
         </div>
-      </section>
+        </div>
+      </div>
     </div>
   );
 }
