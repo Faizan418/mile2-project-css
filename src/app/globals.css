@@ -7,39 +7,6 @@ body {
   padding: 0;
   background-color: #3d3d3d;
 }
-
-.nav-bar {
-  display: flex;
-  background-color: #000000;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  position: sticky;
-  top: 0.1px;
-  z-index: 10;
-  box-sizing: border-box;
-  box-shadow: 0px 5px 30px aqua;
-}
-.logo {
-  height: 100px;
-}
-.li-a {
-  display: inline;
-  padding: 10px;
-  margin: 0 10px;
-  border-radius: 5px;
-}
-.a-li {
-  font-size: 20px;
-  text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-.a-li:hover {
-  color: aqua;
-  transition: 0.4s;
-}
 header {
   background-color: #000000;
   color: white;
@@ -202,12 +169,6 @@ section {
 .python-bar {
   width: 30%;
 }
-.hamburger {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-  color: #fff;
-}
 
 @media (max-width: 760px) {
   .information {
@@ -220,39 +181,6 @@ section {
   .picture {
     filter: drop-shadow(-0px -0px 1px rgb(255, 255, 255));
   }
-  .nav-links {
-    display: none;
-    padding: 10px;
-    flex-direction: column;
-    width: 30%;
-    background-color: rgba(0, 0, 0, 0.637);
-    box-shadow: 0px 0px 30px rgba(0, 255, 255, 0.87);
-    border-radius: 18px;
-    position: absolute;
-    top: 98%;
-    right: 5px;
-  }
-  .nav-links li {
-    margin-bottom: 20px;
-  }
-  .nav-links:hover {
-    background-color: none;
-  }
-  .nav-links.active {
-    display: flex;
-  }
-  .li-a {
-    width: 70%;
-    border-radius: 15px;
-    height: 20px;
-    text-align: center;
-    margin: 5px;
-    margin-right: 20px;
-  }
-  .hamburger {
-    display: block;
-  }
-
   .profile-picture {
     display: none;
   }
