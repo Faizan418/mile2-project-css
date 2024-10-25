@@ -11,7 +11,7 @@ function Hero() {
           <div className={styles.intro}>
             <h1>Hello!</h1>
             <h1>
-              I'm <span className={styles.name1}>Muhammad Faizan</span>
+              I&#39;m <span className={styles.name1}>Muhammad Faizan</span>
             </h1>
             <h3>FullStack Web Developer.</h3>
           </div>
@@ -55,8 +55,7 @@ function Hero() {
             <p className={styles.infor_pera}>
               Address:
               <span className={styles.name}>
-                {/* {" "} */}
-                C/o R-505 Rafi Bunglow's Malir-15 Karachi
+                C/o R-505 Rafi Bunglow&#39;s Malir-15 Karachi
               </span>
             </p>
 
