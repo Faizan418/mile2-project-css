@@ -1,14 +1,13 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../Navbar/Navbar.module.css"
 
 function Navbar() {
-
+  const [menuActive, setMenuActive] = useState(false);
   function toggleMenu() {
-    const navLinks = document.querySelector(".nav_links");
-    navLinks?.classList.toggle("active");
+    setMenuActive(!menuActive);
   }
 
   return (
@@ -25,10 +24,7 @@ function Navbar() {
             />
           </a>
         </div>
-        <div className={styles.hamburger}>
-         <span onClick={toggleMenu}>&#9776;</span> 
-        </div>
-        <ul className={styles.nav_links}>
+        <ul className={`${styles.nav_links} ${menuActive ? styles.active : ""}`}>
           <li className={styles.li_a}>
             <Link className={styles.a_li} href="#">
               Home
@@ -56,13 +52,16 @@ function Navbar() {
           <li className={styles.li_a}>
             <Link
               className={styles.a_li}
-              href="https://project-list-kappa.vercel.app/"
+              href="https://figma-assignment-navy.vercel.app/"
               target="_blank"
             >
               Projects
             </Link>
           </li>
         </ul>
+        <div className={styles.hamburger} onClick={toggleMenu}>
+          &#9776;
+        </div>
       </nav>
     </div>
   );
