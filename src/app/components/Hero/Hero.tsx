@@ -25,6 +25,7 @@ function Hero() {
             />
           </div>
         </div>
+        
       </div>
       <div className={styles.section}>
         <div className={styles.section_information}>
