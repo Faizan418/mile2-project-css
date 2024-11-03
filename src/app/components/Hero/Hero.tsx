@@ -32,7 +32,7 @@ function Hero() {
           <div className={styles.section_picture}>
             <Image
               className={styles.picture}
-              src="/images/picture1-.png"
+              src="/images/done.png"
               alt="picture"
               height={1000}
               width={1000}
