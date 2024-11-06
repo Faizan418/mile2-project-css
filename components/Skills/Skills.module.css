@@ -1,0 +1,66 @@
+.containar {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    /* background-color: #d4c1c1; */
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+ 
+  .head2 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 40px;
+    color: #444;
+    font-size: 35px;
+  }
+
+
+  .skill {
+    margin-bottom: 20px;
+  }
+
+  .skill_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+  .skill_name {
+    text-transform: uppercase;
+  }
+  .bar_container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 28px; 
+    }
+
+
+  .bar_html, .bar_css, .bar_typescript, .bar_javascript, .bar_python {
+      /* padding: 10px 30px; */
+    height: 100%;
+    border-radius: 20px;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: width 0.6s ease;
+    background: linear-gradient(50deg, rgba(0, 0, 0, 0.521), rgba(17, 17, 17, 0.1));
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .bar_html { width: 90%; background-color: #ff5733; color: #2c2c2c;}
+  .bar_css { width: 80%; background-color: #2980b9; color: #2c2c2c;}
+  .bar_typescript { width: 60%; background-color: #007acc; color: #2c2c2c;}
+  .bar_javascript { width: 60%; background-color: #f0db4f; color: #2c2c2c; }
+  .bar_python { width: 30%; background-color: #306998; color: #2c2c2c;}
