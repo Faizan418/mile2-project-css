@@ -13,7 +13,7 @@ function Footer() {
                 <h2 className={styles.heading_two}>Always feel Free to Contact & Hire me.</h2>
             </div>
             <div className={styles.two}>
-                <Link href={'mailto:muhammadf4060@gmail.com'}><button className={styles.btn} type="button">Hire me</button></Link>
+                <Link href={'mailto:muhammadf4060@gmail.com'}><button className={styles.btn} type="button">Email</button></Link>
             </div>
 
         </div>
