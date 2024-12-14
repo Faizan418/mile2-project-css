@@ -13,6 +13,7 @@ function Work() {
 
         <div className={styles.main}>
           <div className={styles.grid_containar}>
+
             <div className={styles.card}>
               <Image
                 className={styles.img}
@@ -24,7 +25,7 @@ function Work() {
               <div className={styles.content}>
                 <h1 className={styles.heading}>project 01</h1>
                 <p className={styles.pera}>Resume Builder</p>
-                <Link href={""}>
+                <Link href={"https://faizan418-hackathon-project.vercel.app/"}>
                   <button className={styles.live} type="button">
                     Live demo
                   </button>
@@ -43,7 +44,7 @@ function Work() {
               <div className={styles.content}>
                 <h1 className={styles.heading}>project 02</h1>
                 <p className={styles.pera}>Basic E-commerce website</p>
-                <Link href={""}>
+                <Link href={"https://mile3-project.vercel.app/"}>
                   <button className={styles.live} type="button">
                     Live demo
                   </button>
@@ -62,7 +63,7 @@ function Work() {
               <div className={styles.content}>
                 <h1 className={styles.heading}>project 03</h1>
                 <p className={styles.pera}>Password Genrator</p>
-                <Link href={""}>
+                <Link href={"https://password-genrator-neon.vercel.app/"}>
                   <button className={styles.live} type="button">
                     Live demo
                   </button>
@@ -81,7 +82,7 @@ function Work() {
               <div className={styles.content}>
                 <h1 className={styles.heading}>project 04</h1>
                 <p className={styles.pera}>PAK-Wheel E-commerce website</p>
-                <Link href={""}>
+                <Link href={"https://pak-wheel-web-clone.vercel.app/"}>
                   <button className={styles.live} type="button">
                     Live demo
                   </button>
@@ -100,7 +101,7 @@ function Work() {
               <div className={styles.content}>
                 <h1 className={styles.heading}>project 05</h1>
                 <p className={styles.pera}>Basic Ecommerce website</p>
-                <Link href={""}>
+                <Link href={"https://q2-final-hackathon-eight.vercel.app/"}>
                   <button className={styles.live} type="button">
                     Live demo
                   </button>
@@ -119,7 +120,7 @@ function Work() {
               <div className={styles.content}>
                 <h1 className={styles.heading}>project 06</h1>
                 <p className={styles.pera}>Quiz app with login/signup</p>
-                <Link href={""}>
+                <Link href={"https://quiz-app-silk-sigma.vercel.app/"}>
                   <button className={styles.live} type="button">
                     Live demo
                   </button>
@@ -138,7 +139,7 @@ function Work() {
               <div className={styles.content}>
                 <h1 className={styles.heading}>project 07</h1>
                 <p className={styles.pera}>Basic E-commerce website</p>
-                <Link href={""}>
+                <Link href={"https://prepration-hackathon-q2.vercel.app/"}>
                   <button className={styles.live} type="button">
                     Live demo
                   </button>
@@ -157,17 +158,19 @@ function Work() {
               <div className={styles.content}>
                 <h1 className={styles.heading}>project 08</h1>
                 <p className={styles.pera}>Todos app</p>
-                <Link href={""}>
+                <Link href={"https://todo-list-vert-seven.vercel.app/"}>
                   <button className={styles.live} type="button">
                     Live demo
                   </button>
                 </Link>
               </div>
             </div>
+            
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
   );
 }
 
