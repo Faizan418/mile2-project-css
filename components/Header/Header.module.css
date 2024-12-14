@@ -1,155 +1,162 @@
-.containar{
+.containar {
     background-image: url(/images/cover_bg_3.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-
-}
-.main{
+  }
+  .main {
     background-color: #4c00ffe0;
-    background-color: #ff9000ef;
+    background-color: #ff9100e0;
+    background-color: rgba(0, 0, 0, 0.842);
     height: 100%;
     padding: 30px 50px;
     border-bottom: 1px solid rgb(255, 255, 255);
-
-
-}
-.display{
-    /* border: 1px solid black; */
+  }
+  .display {
     border-radius: 10px;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* filter: drop-shadow(-0px -0px 10px rgb(0, 0, 0)); */
-    box-shadow: -0px -0px 1px rgb(0, 0, 0);
-}
-.profile_div{
-    /* border: 1px solid white; */
+  }
+  .profile_div {
     border-radius: 50%;
     margin-bottom: 35px;
     height: 180px;
-    width: 180px;  
+    width: 180px;
     padding: 4px;
-}
-.profile{
-    /* padding: 5px; */
+  }
+  .profile {
     border-radius: 50%;
     height: 180px;
     width: 180px;
     padding: 0px 3px;
     filter: drop-shadow(-0px -0px 10px rgba(255, 255, 255, 0.856));
-}
-.tital_div{
-    /* border: 1px solid white; */
+  }
+  .tital_div {
     color: white;
     transform: rotate(-5deg);
-    /* font-family: "Kaushan Script", cursive; */
     margin-bottom: 30px;
-}
-.tital{
+  }
+  .tital {
     font-family: cursive;
     font-size: 50px;
     line-height: 1.3;
     font-weight: 500;
-}
-.subject_div{
-    /* border: 1px solid white; */
+  }
+  .subject_div {
     color: whitesmoke;
     margin-bottom: 30px;
-}
-.subject{
+  }
+  .subject {
     font-family: "Space Mono", Arial, serif;
     font-weight: 500;
     line-height: 1.1;
-
-}
-.icons_div{
-    /* border: 1px solid white; */
+  }
+  .icons_div {
     display: flex;
     padding: 8px;
     gap: 20px;
-}
-.icon{
+  }
+  .icon {
     padding: 5px;
-    /* border: 1px solid black; */
     border-radius: 50%;
-}
-.icon:hover{
+    background-color: rgb(88, 88, 88);
+    background-color: #ff00009f;
+  }
+  .icn {
+    color: whitesmoke;
+  }
+  .icon:hover {
     border: 1px solid rgb(0, 0, 0);
-    transition: 0.8s;
-    filter: drop-shadow(-0px -0px 10px rgb(0, 0, 0));
-
-}
-.icon:active{
+    transition: 0.2s;
+    filter: drop-shadow(-0px -0px 10px rgb(255, 255, 255));
+    transform: scale(1.3);
+  }
+  .icon:active {
     border: 3px solid rgb(155, 13, 20);
     transition: 0.2s;
-}
-@media(max-width: 600px){
-    .tital{
-        font-size: 40px;
+  }
+  .btn_div{
+    padding: 4px;
+  }
+  .btn{
+    height: 34px;
+    width: 100px;
+    background-color: rgb(206, 39, 39);
+    color: whitesmoke;
+    font-size: small;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .btn:hover{
+    width: 230px;
+    transition: ease-in-out 0.4s;
+    transition: ease-out 0.5s;
+    background-color: rgb(236, 3, 3);
+  }
+  .btn:active{
+    background-color: rgb(180, 0, 0);
+    transition: 0.2s;
+  
+  }
 
+  @media (max-width: 600px) {
+    .tital {
+      font-size: 40px;
     }
-}
-@media(max-width: 494px){
-    .tital{
-        font-size: 30px;
-
+  }
+  @media (max-width: 494px) {
+    .tital {
+      font-size: 30px;
     }
-    .subject{
-        font-size: small;
+    .subject {
+      font-size: small;
     }
-}
-@media(max-width: 400px){
-    .tital{
-        font-size: 25px;
-
+  }
+  @media (max-width: 400px) {
+    .tital {
+      font-size: 25px;
     }
-    .icons_div{
-        gap: 12px;
+    .icons_div {
+      gap: 12px;
     }
-
-    .profile_div{
-
-        height: 150px;
-        width: 150px;  
+  
+    .profile_div {
+      height: 150px;
+      width: 150px;
     }
-    .profile{
-        height: 150px;
-        width: 150px;
-
+    .profile {
+      height: 150px;
+      width: 150px;
     }
-
-}
-@media(max-width: 350px){
-    .main{
-        padding: 20px 30px;
-    
+  }
+  @media (max-width: 350px) {
+    .main {
+      padding: 20px 30px;
     }
-}
-@media(max-width: 310px){
-    .main{
-        padding: 20px 20px;
-    
+  }
+  @media (max-width: 310px) {
+    .main {
+      padding: 20px 20px;
     }
-}
-@media(max-width: 290px){
-    .tital{
-        font-size: 20px;
-
+  }
+  @media (max-width: 290px) {
+    .tital {
+      font-size: 20px;
     }
-    .subject{
-        font-size: 10px;
+    .subject {
+      font-size: 10px;
     }
-}
-@media(max-width: 240px){
-    .tital{
-        font-size: 18px;
-
+  }
+  @media (max-width: 240px) {
+    .tital {
+      font-size: 18px;
     }
-    .subject{
-        font-size: 10px;
+    .subject {
+      font-size: 10px;
     }
-}
+  }
+  
